@@ -156,11 +156,6 @@ header.rolagem span{
     margin-right: 70px;
 }
 
-#please{
-    position: relative;
-    background-color: blue;
-}
-
 .title{
     text-align: center;
     margin-top: 40px;
@@ -170,26 +165,25 @@ header.rolagem span{
 }
 
 .block1{
-    position: relative;
+    
 }
 
 section .block1 .description{
     width: 500px;
     height: 200px;
-    position: absolute;
-    top: 1;
+    display: flex;
+    transform: translate(0%, 10%);
     margin-left: 170px;
     margin-top: 90px;
     background-color: white;
     color: black;
-    z-index: 1;
+   
+    
 }
 
 section .block1 .fotosobre{
-    position: absolute;
-    top: 1;
-    right: 0;
-    margin-right: 200px;
+   display: flex;
+   transform: translate(40%, -70%);
 }
 
 section .block1 .description .textinside{
