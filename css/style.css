@@ -156,32 +156,68 @@ header.rolagem span{
     margin-right: 70px;
 }
 
+#please{
+    position: relative;
+    background-color: blue;
+}
+
 .title{
     text-align: center;
     margin-top: 40px;
     font-size: 36px;
     font-weight: 500;
+    position: relative;
 }
 
 .block1{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    height: 450px;
-    
-    
+    position: relative;
 }
 
-.text1{
-    font-weight: 600;
-    font-size: 20px;
-    text-align: justify;
+section .block1 .description{
     width: 500px;
-    display: flex;
-    flex-direction: row;   
+    height: 200px;
+    position: absolute;
+    top: 1;
+    margin-left: 170px;
+    margin-top: 90px;
+    background-color: white;
+    color: black;
+    z-index: 1;
 }
+
+section .block1 .fotosobre{
+    position: absolute;
+    top: 1;
+    right: 0;
+    margin-right: 200px;
+}
+
+section .block1 .description .textinside{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: 19px;
+}
+
+
 
 .foto1{
-    width: 360px;
+    margin-top: 40px;
+    width: 600px;
+    opacity: .7;
+}
+
+.divider{
+    background-image: url(../image/mike-kenneally-TD4DBagg2wE-unsplash.jpg);
+    width: 100%;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.jesus{
+    background-color: black;
 }
