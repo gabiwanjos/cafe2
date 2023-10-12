@@ -161,12 +161,14 @@ header.rolagem span{
 }
 
 #section1{
+    display: flex;
+    flex-direction: column; 
     background-color: #125221be;
     padding-top: 30px;
     padding-bottom: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.158);
     width: 1000px;
-    margin-left: 170px;
+    margin: auto;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -284,33 +286,86 @@ hr{
     opacity: 1;
 }
 
-.stuff{
+.boxpro{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     display: flex;
-    margin-top: 100px;
+    flex-direction: row;
+    gap: 10px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 1100px;
+    overflow: hidden;
 }
 
-.box{
-    width: 290px;
+.imgpr{
+    object-fit: cover;
+    width: 300px;
+    height: 500px;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+.data-text{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
-    background-color: #125221be;
+    transform: translate(0%, -190%);
+    z-index: 100;
+}
+
+.btn{
+    height: 30px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.555);
     color: white;
-    padding: 5px;
-    border-radius: 20px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
-.aspect1{
-    font-size: 18px;
-    text-align: center;
+.data-text h2{
+    color: black;
+
 }
 
-.aspect2{
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
+.sl1:hover{
+    width: 500px;
+    opacity: 1;
+    transition: 0.9s;
 }
 
+.sl2:hover{
+    width: 500px;
+    opacity: 1;
+    transition: 0.9s;
+}
+
+.sl3:hover{
+    width: 500px;
+    opacity: 1;
+    transition: 0.9s;
+}
+
+.sl4:hover{
+    width: 500px;
+    opacity: 1;
+    transition: 0.9s;
+}
+
+.sl5:hover{
+    width: 500px;
+    opacity: 1;
+    transition: 0.9s;
+}
+
+.sl6:hover{
+    width: 500px;
+    opacity: 1;
+    transition: 0.9s;
+}
